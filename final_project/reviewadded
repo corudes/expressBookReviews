@@ -1,10 +1,10 @@
-curl -i -b cookie.txt -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -d '{"review":"Great book!"}'
+curl -i -b cookie.txt -X PUT http://localhost:5000/customer/auth/review/1 -H "Content-Type: application/json" -d '{"review":"Great book"}'
 HTTP/1.1 200 OK
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 47
 ETag: W/"2f-lNYsMZw2LTMMxaZ/ZO4ru1RfkNg"
-Date: Sat, 17 Jan 2026 12:09:02 GMT
+Date: Sat, 17 Jan 2026 14:25:43 GMT
 Connection: keep-alive
 Keep-Alive: timeout=5
 

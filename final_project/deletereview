@@ -1,0 +1,11 @@
+curl -i -b cookie.txt -X DELETE http://localhost:5000/customer/auth/review/1
+HTTP/1.1 404 Not Found
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 30
+ETag: W/"1e-iY3ScKIav3SBDy8VjYgMHHyx/2c"
+Date: Sat, 17 Jan 2026 12:19:33 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Review not found"}

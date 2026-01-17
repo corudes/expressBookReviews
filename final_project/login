@@ -1,0 +1,12 @@
+curl -i -c cookie.txt -X POST http://localhost:5000/customer/login -H "Content-Type: application/json" -d '{"username":"arjay","password":"123"}'
+HTTP/1.1 200 OK
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 30
+ETag: W/"1e-DOWvfMhj05v4eN+mg6AlHJrIPp8"
+Set-Cookie: connect.sid=s%3AkZhysLbevT2uPJKaIZtzGWju7X_19wI4.qRdDVU%2FrR3gzFvx6yrkgzeYf7f8yYE2VTvwPboTmK2k; Path=/; HttpOnly
+Date: Sat, 17 Jan 2026 12:05:23 GMT
+Connection: keep-alive
+Keep-Alive: timeout=5
+
+{"message":"Login successful"}
